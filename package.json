@@ -1,6 +1,6 @@
 {
   "name": "pdf2svg",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Convert a PDF file to a directory of SVG files.",
   "main": "pdf2svg",
   "bin": "./pdf2svg",
