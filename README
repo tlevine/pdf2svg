@@ -1,0 +1,22 @@
+pdf2svg
+
+ABOUT
+
+This shell script uses inkscape to convert a pdf to a directotry of svgs.
+
+    USAGE: pdf2svg [pdf file]
+
+SVG files are saved in the `$(basename $pdffilename .pdf)` directory and
+are named by page number.
+
+INSTALLING
+
+First, install `inkscape` and `pdftk`. On Debian, it would be this.
+
+    apt-get install inkscape pdftk
+
+Then you can either install from npm
+
+    npm install -g pdf2svg
+
+or just copy the included `pdf2svg` to a directory in your `$PATH`.
